@@ -1,3 +1,10 @@
+--[[
+   * ReaScript Name:Smart Delete ME
+   * Lua script for Cockos REAPER
+   * Author: Maxim Kokarev
+   * Author URI: https://forum.cockos.com/member.php?u=121750
+  ]]--
+
 local r = reaper
     local ME = r.MIDIEditor_GetActive();
     if not ME then return end;
